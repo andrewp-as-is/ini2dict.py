@@ -15,7 +15,7 @@ def _sectiondict(config, section):
 
 @public.add
 def read(path):
-    """return a dictionary with config data"""
+    """return a dictionary with ini file data"""
     result = dict()
     config = ConfigParser()
     with open(path, "r") as f:
